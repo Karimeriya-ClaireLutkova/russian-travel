@@ -1,0 +1,7 @@
+.header__lang-zone{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  transition: linear;
+}
