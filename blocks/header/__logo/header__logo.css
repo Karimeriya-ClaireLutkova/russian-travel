@@ -1,5 +1,5 @@
 .header__logo {
+  display: flex;
   max-width: 176px;
-  max-height: 52px; 
   justify-self: flex-start;
 }

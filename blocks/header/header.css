@@ -5,3 +5,10 @@
   max-height: 52px;
   justify-content: space-between;
 }
+
+@media (max-width:700px) {
+  .header {
+    max-height: 42px; 
+  }
+}
+  

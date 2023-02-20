@@ -1,14 +1,16 @@
-.header__lang-link{
+.header__lang-link {
   font-size: 1.5rem;
-  line-height: 1.2;
+  line-height: 1.17;
   color: #FFFFFF;
+  text-align: center;
   text-decoration: none;
+  transition: linear;
 }
 
 .header__lang-link:hover {
   opacity: .5;
 }
 
-.header__lang-link:active {
+.header__lang-link:focus {
   text-decoration: underline;
 }
