@@ -1,0 +1,10 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 100*2);
+  justify-content: center;
+  margin: 0 100px 92px;
+  overflow: hidden;
+  
+
+}
