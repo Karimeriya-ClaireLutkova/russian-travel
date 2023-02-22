@@ -3,3 +3,9 @@
   max-width: 176px;
   justify-self: flex-start;
 }
+
+@media (max-width: 767px) {
+  .header__logo {
+    max-width: 142px;
+  }
+}
