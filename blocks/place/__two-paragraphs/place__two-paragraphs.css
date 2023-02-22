@@ -1,0 +1,6 @@
+.place__two-paragraphs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  order: 3;
+}

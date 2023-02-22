@@ -5,4 +5,10 @@
   text-decoration: underline;
   margin: 0;
   padding: 0;
+  color: #FFFFFF;
+}
+
+.place__link:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
