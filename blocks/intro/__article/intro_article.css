@@ -1,11 +1,17 @@
 .intro__article {
   max-width: 690px;
-  top: 0;
-  left: 0;
+  align-items: flex-start;
+}
+
+
+@media (max-width: 1023px) {
+  .intro__article {
+    max-width: 720px;
+  }  
 }
 
 @media (max-width: 767px) {
   .intro__article {
-    max-width: 100%;
+    max-width: 288px;
   }  
 }

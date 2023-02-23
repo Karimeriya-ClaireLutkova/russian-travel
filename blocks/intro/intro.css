@@ -1,21 +1,27 @@
 .intro {
   display: flex;
   flex-direction: column;
-  max-width: calc(100% - 100px*2);
-  margin: 0 100px;
+  max-width: calc(100% - 148px*2);
+  margin: 0 148px;
 }
 
 @media (max-width: 1279px) {
   .intro {
-    max-width: 100%;
-    margin-left: 24px;
-    margin-right: 24px;
+    max-width: calc(100% - 48px*2);
+    margin: 0 48px;
+  }  
+}
+
+@media (max-width: 1023px) {
+  .intro {
+    max-width: calc(100% - 24px*2);
+    margin: 0 24px;
   }  
 }
 
 @media (max-width: 767px) {
   .intro {
-    margin-left: 16px;
-    margin-right: 16px;
+    max-width: calc(100% - 16px*2);
+    margin: 0 16px;
   }  
 }
