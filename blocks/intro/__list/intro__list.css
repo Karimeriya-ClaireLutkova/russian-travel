@@ -8,3 +8,12 @@
   margin: 0;
   border: 0;
 }
+
+@media (max-width: 750px) {
+  .intro__list {
+    max-width: 288;
+    margin-left: 16px;
+    margin-right: 16px;
+
+  }  
+}

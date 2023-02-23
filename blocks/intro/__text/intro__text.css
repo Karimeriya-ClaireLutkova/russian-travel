@@ -5,3 +5,10 @@
   margin: 0 0 33px;
   padding: 0;
 }
+
+@media (max-width: 750px) {
+  .intro__text {
+    margin: 0 0 34px;
+    max-width: 288px;
+  }  
+}
