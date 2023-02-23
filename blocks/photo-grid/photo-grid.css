@@ -1,7 +1,33 @@
 .photo-grid {
   display: grid;
   max-width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-template-rows: auto;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   gap: 16px;
 }
+
+@media (max-width: 1160px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 934px) {
+  .photo-grid {
+    max-width: calc(100% - 24px*2);
+    gap: 16px;
+    margin: 0 24px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-grid { 
+    max-width: calc(100% - 16*2);  
+    gap: 12px;    
+    margin-left: 16px;
+    margin-right: 16px; 
+  }
+}
+
+
+
