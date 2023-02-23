@@ -7,15 +7,25 @@
   justify-content: space-between;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1279px) {
   .header {
-    max-height: 42px; 
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1023px) {
   .header {
-    margin-bottom: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
   
+@media (max-width: 767px) {
+  .header {
+    max-height: 42px; 
+    margin: 0 16px 48px;
+  }
+}
+
+

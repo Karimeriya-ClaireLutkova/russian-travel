@@ -7,3 +7,12 @@
   line-height: 1.04;
   text-align: center;
 }
+
+@media (max-width: 750px) {
+  .lead__title {
+    margin: 0 auto 32px;
+    font-size: 40px;
+    line-height: 1.10;
+    max-width: 288px;
+  }
+}
