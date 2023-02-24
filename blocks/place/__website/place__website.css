@@ -7,3 +7,23 @@
   row-gap: 12px;
   order: 1;
 }
+
+@media (max-width: 1279px) {
+  .place__website {
+    row-gap: 24px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place__website {
+    max-width: 352px;
+    row-gap: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    max-width: calc(100% - 16px*2);
+  }
+}
+

@@ -1,7 +1,6 @@
 .place {
   display: grid;
-  max-width: 100%;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 1fr 460px;
   grid-template-rows: auto;
   gap: 48px 40px;
 }
@@ -18,8 +17,10 @@
   }  
 }
 
-@media (max-width: 420px) {
-  .place {    
+@media (max-width: 767px) {
+  .place {   
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; 
     gap: 32px;
   }  
 }
