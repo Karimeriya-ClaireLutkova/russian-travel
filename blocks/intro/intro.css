@@ -8,6 +8,7 @@
 
 @media (max-width: 1279px) {
   .intro {
+    align-items:center;
     max-width: calc(100% - 48px*2);
     margin: 0 48px 92px;
   }  
