@@ -1,7 +1,11 @@
 .place__paragraphs {
   display: flex;
+  flex-direction: column;
   max-width: 484px;
   margin: 0;
+  margin: 0;
+  flex-direction: column;
+  margin: 0;  
   flex-direction: column;
   row-gap: 27px;
   order: 3;
@@ -16,6 +20,7 @@
 
 @media (max-width: 1023px) {
   .place__paragraphs {
+    align-items: center;
     max-width: 352px;
     row-gap: 25px;
   }
@@ -23,7 +28,8 @@
 
 @media (max-width: 760px) {
   .place__paragraphs {
-    max-width: 320px;  
+    max-width: 320px;
+    margin: 0 16px;
   }
 }
 
