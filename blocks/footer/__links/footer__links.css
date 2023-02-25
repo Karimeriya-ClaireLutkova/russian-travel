@@ -9,12 +9,6 @@
   column-gap: 18px;  
 }
 
-@media (max-width: 1023px) {
-  .footer__links {
-    row-gap: 18px;
-  }
-}
-
 @media (max-width: 767px) {
   .footer__links {
     max-width: 186px;
