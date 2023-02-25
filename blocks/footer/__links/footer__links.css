@@ -4,9 +4,23 @@
   flex-direction: row;
   list-style-type: none;
   align-items: flex-start;
-  gap: 18px;
   margin: 0;
   padding: 0;
-  height: 18px;
   column-gap: 18px;  
+}
+
+@media (max-width: 1023px) {
+  .footer__links {
+    row-gap: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__links {
+    max-width: 186px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 48px;
+  }
 }
