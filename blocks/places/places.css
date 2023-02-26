@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   max-width: 984px;
   margin: 0 148px 92px;
   row-gap: 80px;
@@ -10,6 +9,7 @@
 
 @media (max-width: 1279px) {
   .places {
+    align-items: center;
     margin: 0 48px 76px;
   }
 }
@@ -23,7 +23,6 @@
 
 @media (max-width: 767px) {
   .places {
-    align-items: center;
     row-gap: 50px;
     margin: 0 0 66px;
   }
