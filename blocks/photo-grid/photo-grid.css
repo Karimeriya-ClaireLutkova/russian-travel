@@ -2,8 +2,8 @@
   display: grid;
   max-width: 1184px;
   margin: 0 48px 92px;
+  justify-content: center;
   align-items: center;
-  justify-items: center;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 225px);
   gap: 16px;
@@ -11,6 +11,7 @@
 
 @media (max-width: 1279px) {
   .photo-grid {
+    max-width: 1024px;
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(3, 225px);
     gap: 14px;
@@ -22,7 +23,7 @@
     max-width: 720px;    
     margin: 0 24px 88px;
     grid-template-columns: repeat(2, 352px);
-    grid-template-rows: (6, 264px);
+    grid-template-rows: repeat(6, 264px);
     gap: 16px;
   }
 }
