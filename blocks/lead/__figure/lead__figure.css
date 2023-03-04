@@ -1,6 +1,7 @@
 .lead__figure {
   margin: 0;
   padding: 0;
+  max-width: 984px;
 }
 
 @media (max-width: 1279px) {

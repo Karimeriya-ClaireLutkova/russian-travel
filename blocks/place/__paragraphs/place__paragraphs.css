@@ -3,14 +3,14 @@
   flex-direction: column;
   max-width: 484px;
   margin: 0;
-  row-gap: 27px;
+  row-gap: 26px;
   order: 3;
 }
 
 @media (max-width: 1279px) {
   .place__paragraphs {
     max-width: 456px;
-    row-gap: 26px;
+    row-gap: 27px;
   }
 }
 
