@@ -1,9 +1,6 @@
 .footer__links {
   display: flex;
-  max-width: 50%;
-  flex-direction: row;
   list-style-type: none;
-  align-items: flex-start;
   margin: 0;
   padding: 0;
   column-gap: 18px;  

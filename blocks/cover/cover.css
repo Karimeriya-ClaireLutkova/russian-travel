@@ -5,7 +5,7 @@
   justify-content: center;
   max-width: 1184px;
   position: relative;
-  margin: 0 48px 92px;
+  margin: 0 48px;
 }
 
 .cover:hover {
@@ -14,18 +14,6 @@
 
 @media (max-width: 1279px) {
   .cover {
-    margin: 0 0 108px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .cover {
-    margin: 0 0 88px;
-  }
-}
-
-@media (max-width: 767px) {
-  .cover {
-    margin: 0 0 64px;
+    margin: 0;
   }
 }
