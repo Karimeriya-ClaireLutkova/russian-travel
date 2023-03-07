@@ -2,7 +2,7 @@
   max-width: 100%;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.612;
+  line-height: 1.63;
   margin: 0;
   padding: 0;
 }
@@ -10,6 +10,5 @@
 @media (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 1.625;
   }
 }
