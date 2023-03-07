@@ -5,11 +5,11 @@
 @media (max-width: 1023px) {
   .place__title_spacing {
     letter-spacing: 1px;
-  }  
+  }
 }
 
 @media (max-width: 767px) {
   .place__title_spacing {
     letter-spacing: normal;
-  }  
+  }
 }

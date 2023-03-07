@@ -7,16 +7,15 @@
   margin: 0 auto;
   padding: 28px 0 24px;
 }
-  
+
 @media (max-width: 1279px) {
   .page {
     max-width: 100%;
   }
 }
-  
+
 @media (max-width: 767px) {
-  .page {
-    
+  .page {    
     padding: 16px 0px 24px;
   }
-} 
+}
