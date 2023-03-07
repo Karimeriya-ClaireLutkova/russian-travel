@@ -11,7 +11,8 @@
   .places {
     max-width: 928px;
     align-items: center;
-    margin: 0 48px 76px;
+    margin: 0 auto 76px;
+    padding: 0 48px;
   }
 }
 
@@ -19,7 +20,8 @@
   .places {
     max-width: 720px;
     row-gap: 73px;
-    margin: 0 24px 90px;
+    margin: 0 auto 90px;
+    padding: 0 24px;
   }
 }
 
@@ -28,5 +30,6 @@
     max-width: 320px;
     row-gap: 50px;
     margin: 0 auto 66px;
+    padding: 0;
   }
 }

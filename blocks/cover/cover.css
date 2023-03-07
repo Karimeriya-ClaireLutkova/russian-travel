@@ -14,7 +14,7 @@
 
 @media (max-width: 1279px) {
   .cover {
-    margin: 0;
+    margin: 0 auto;
     max-width: 1024px;
   }
 }
@@ -28,6 +28,5 @@
 @media (max-width: 767px) {
   .cover {
     max-width: 320px;
-    margin: 0 auto;
   }
 }
